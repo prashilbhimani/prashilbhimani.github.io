@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Jumbotron } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 class Home extends Component {
     render() {
@@ -18,6 +19,7 @@ class Home extends Component {
                         <p>
                             <Button variant="primary">Learn more</Button>
                         </p>
+                        <li><Link to="/projects">React</Link></li>
                     </Jumbotron>
                 </div>
             </div>
