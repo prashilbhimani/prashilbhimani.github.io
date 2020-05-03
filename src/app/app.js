@@ -8,8 +8,8 @@ class App extends Component {
         const App = () => (
             <div>
                 <Switch>
-                    <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
-                    <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+                    <Route exact path='/' component={Home} />
+                    <Route path='/projects' component={Projects} />
                 </Switch>
             </div>
         );
