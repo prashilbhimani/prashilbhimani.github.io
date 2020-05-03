@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './app/app';
 
 render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/">
         <App />
     </BrowserRouter>,
     document.getElementById('root')
