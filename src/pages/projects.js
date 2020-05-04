@@ -5,9 +5,7 @@ class Projects extends Component {
         return (
             <div className="App">
                 <h1>List of Items</h1>
-                    <div>
-                        Project1
-                    </div>
+                <div>Project1</div>
             </div>
         );
     }

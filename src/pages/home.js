@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Button, Jumbotron } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import EducationTimeline from '../components/EducationTimeline';
+import Header from '../components/Header';
 
 class Home extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="App" id="home">
                 <div>
                     <h1>This is my personal website</h1>
                 </div>
@@ -19,8 +21,13 @@ class Home extends Component {
                         <p>
                             <Button variant="primary">Learn more</Button>
                         </p>
-                        <li><Link to="/projects">React</Link></li>
+                        <li>
+                            <Link to="/projects">React</Link>
+                        </li>
                     </Jumbotron>
+                </div>
+                <div id="timeline">
+                    <EducationTimeline />
                 </div>
             </div>
         );
