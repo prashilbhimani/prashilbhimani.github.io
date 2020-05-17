@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Advent Pro');
+
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 5rem;
+    color: #CCD6F6;
+    height: 100vh;
+    text-align: center;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+
+}
+
+.header {
+    cursor: pointer;
+}
