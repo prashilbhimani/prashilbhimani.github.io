@@ -7,7 +7,7 @@ class Home extends Component {
         return (
             <div className="Home" id="home">
                 <Hero/>
-                <EducationTimeline />
+                <EducationTimeline/>
             </div>
         );
     }

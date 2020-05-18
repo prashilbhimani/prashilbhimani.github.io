@@ -1,18 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Advent Pro');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .Hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: auto;
-    font-size: 5rem;
     color: #CCD6F6;
-    height: 100vh;
-    text-align: center;
+    height: inherit;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 
 }
 
+.Hero .main {
+    font-size: 8vh;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.Hero .sub-bullet {
+    left: 50%;
+    padding: 2vh;
+    font-size: 3vh;
+
+}
+
+#lower {
+    display: none;
+}
+
+.HeroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.arrowContainer {
+    position: absolute;
+    height: inherit;
+    justify-content: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 95%;
+    transform: translate(0%, -50%);
+    align-items: center;
+}
+
 .header {
     cursor: pointer;
+    font-size: auto;
+
 }

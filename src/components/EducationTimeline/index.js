@@ -5,7 +5,8 @@ import 'react-vertical-timeline-component/style.min.css';
 class EducationTimeline extends Component {
     render() {
         return (
-            <VerticalTimeline>
+            <div id="timeline">
+            <VerticalTimeline >
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
@@ -32,6 +33,7 @@ class EducationTimeline extends Component {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }} />
             </VerticalTimeline>
+            </div>
         );
     }
 }
