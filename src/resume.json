@@ -1,0 +1,209 @@
+{
+  "basics": {
+    "name": "Prashil Bhimani",
+    "label": ["Data Engineer", "Data Analyst", "Designer", "Ful Stack Developer", "Software Engineer"],
+    "picture": "images/profile.png",
+    "x_title": "Hello there, Nice to see you here ",
+    "summary": "I am software engineer interested in building real time data pipeline and big data analytics software. Currently I am working at @Twitter building realtime Data Pipelines and analytics platform for the Public APIs. In my leisure time I love watching Netflix documentaries, History videos, and keep a track of Cricket games ",
+    "location": {
+      "country": "US",
+      "countryCode": "US",
+      "region": "Bay Area"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "_prashil_",
+        "url": "https://twitter.com/_prashil_",
+        "x_icon":"fab fa-2x fa-twitter"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "prashil-bhimani",
+        "url": "https://www.linkedin.com/in/prashil-bhimani/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "prashilbhimani",
+        "url": "https://github.com/prashilbhimani",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Twitter",
+      "position": "Software Engineer",
+      "website": "www.twitter.com",
+      "startDate": "2019-07-22",
+      "endDate": "",
+      "summary": "Working for the Twitter Public API platform (DES) and built a pipeline to track and analyze usage of the APIs"
+    },
+    {
+      "company": "Goldman Sachs",
+      "position": "Analyts",
+      "website": "https://www.goldmansachs.com/",
+      "startDate": "2018-05-31",
+      "endDate": "2018-08-08",
+      "summary": "Joined Goldman Sachs as an Analyst to work on the Controller's Tech division and built streamlined approval process for quaterly financial statements for funds"
+    },
+    {
+      "company": "University of Colorado, Boulder",
+      "position": "Lead Teaching Assistant",
+      "website": "https://www.colorado.edu/cs/",
+      "startDate": "2018-01-15",
+      "endDate": "2019-05-08",
+      "summary": "Lead a team of over 70 Teaching Assistants and taugh Data Structures and Programming for 3 semesters at the CS department in CU Boulder",
+      "highlights": []
+    } 
+  ],
+  "education": [
+    {
+      "institution": "University of Madeira",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-15",
+      "endDate": "2019-06-07",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "GCP",
+      "level": "Proficient",
+      "keywords": ["Cloud & Distributed Systems"]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Beginner",
+      "keywords": ["Cloud & Distributed Systems"]
+    },
+    {
+      "name": "Kafka/ Messsaging System",
+      "level": "Proficient",
+      "keywords": ["Cloud & Distributed Systems"]
+    },
+    {
+      "name": "Map Reduce",
+      "level": "Proficient",
+      "keywords": ["Cloud & Distributed Systems"]
+    },
+    {
+      "name": "Elastic Search",
+      "level": "Competent",
+      "keywords": ["Cloud & Distributed Systems"]
+    },
+    
+
+
+    {
+      "name": "Full Stack Development",
+      "level": "Proficient",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Front End Development",
+      "level": "Competent",
+      "keywords": ["Software Developer"]
+    },
+        {
+      "name": "REST API",
+      "level": "Expert",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Object Oriented Programming",
+      "level": "Expert",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Design Patterns",
+      "level": "Competent",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Git",
+      "level": "Proficient",
+      "keywords": ["Software Developer"]
+    },
+
+    {
+      "name": "Java",
+      "level": "Expert",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "Python",
+      "level": "Proficient",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "Scala",
+      "level": "Competent",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "C++",
+      "level": "Competent",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "C",
+      "level": "Beginner",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Competent",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "SQL",
+      "level": "Expert",
+      "keywords": ["Languages"]
+    }
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Gujrati",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Fluent speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Data Engineer",
+      "x_icon": "fa-database"
+    },
+    {
+      "name": "Data Analyst",
+      "x_icon": "fa-cloud"
+    },
+    {
+      "name": "Software Engineer",
+      "x_icon": "fa-code"
+    },
+    {
+      "name": "Full Stack Developer",
+      "x_icon": "fa-window-maximize"
+    }
+  ]
+}
