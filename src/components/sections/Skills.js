@@ -49,7 +49,7 @@ function Skills() {
             </div>
             <SkillsList
               skills={Resume.skills
-                .filter(skill => skill.keywords.includes("Software Developer"))
+                .filter(skill => skill.keywords.includes("Software Development"))
                 .reduce((obj, item) => {
                   obj[item.name] = item.level;
                   return obj;

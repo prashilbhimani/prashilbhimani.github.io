@@ -60,11 +60,24 @@
   ],
   "education": [
     {
-      "institution": "University of Madeira",
-      "area": "Computer Engineering",
+      "institution": "University of Colorado, Boulder",
+      "area": "Computer Scince",
+      "studyType": "Masters",
+      "startDate": "2017-08-17",
+      "endDate": "2019-05-08",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    },
+    {
+      "institution": "Veermata Jijabai Technological Institute (VJTI)",
+      "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "startDate": "2013-06-13",
+      "endDate": "2017-05-01",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
@@ -105,32 +118,32 @@
     {
       "name": "Full Stack Development",
       "level": "Proficient",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
     {
       "name": "Front End Development",
       "level": "Competent",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
         {
       "name": "REST API",
       "level": "Expert",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
     {
       "name": "Object Oriented Programming",
       "level": "Expert",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
     {
       "name": "Design Patterns",
       "level": "Competent",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
     {
       "name": "Git",
       "level": "Proficient",
-      "keywords": ["Software Developer"]
+      "keywords": ["Software Development"]
     },
 
     {
@@ -204,6 +217,82 @@
     {
       "name": "Full Stack Developer",
       "x_icon": "fa-window-maximize"
+    }
+  ],
+    "projects": [
+    {
+      "name": "Search Infrastructure as a Service",
+      "description": [
+        "The goal of the project was to give search infrastructure as a service where customers can upload their datasets and plug in a search index in their application backed by their data.",
+        "The search infrastruture was based on elastic search where customers can define their fields to index and have fine grained control over their data without the over head of maintaining elastic search clusters.",
+        "To support uploads of large data we supported peer to peer network uploads using torrent protocol.",
+        "Along with basic search the service would provide precomputed analytics on several basic fields."
+      ],
+      "technology": ["Elastic Search", "AWS", "BitTorrent", "Apache Spark"],
+      "start_date": "Sept 2018",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Community detection in Social Networks",
+      "description": [
+        "Social Networks exhibit graph like communities and goal of the research was to apply graph algorithms to detect sub communities in a particular community.",
+        "We used Twitter Data for on the community of users who talk about climate change on the social network.",
+        "The study processed over a milllion tweets with 100k+ users and found echo chambers within the community where people using the Louvain algorithm.",
+        "We uncovered that Twitter communities have echo chambers where the interactions between communities supporting climate change and considering it a hoax is minimal."
+      ],
+      "technology": ["Hadoop", "Apache Storm", "Apache Spark", "Neo4J", "GCP"],
+      "start_date": "Aug 2018",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Connect 4 player using Reinforcement Learning",
+      "description": [
+        "We developed a Connect 4 player using Q learning where the Q-Table was mocked by a structured neural network.",
+        "This lead to reducing in training time over an unsupervised network.",
+        "The player was trained on a 3 layerd structured neural network to determine Q values.",
+        "We used opposing players which played based on different strateries like Limited depth Minimax, Monte Carlo, and Random moves to train our model."
+      ],
+      "technology": ["Python", "Keras", "TensorFlow"],
+      "start_date": "Jan 2018",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Real Time sentiment analysis of topics using Tweets",
+      "description": [
+        "Brands are very keen to understand public response to their products across various regions.",
+        "We used Twitter's live stream API to get live tweets about people tweeting about a certain product and what are their sentiments about it.",
+        "The system was backed by real time processing of the tweets and comuting the overall sentiments by regions for the given keywords."
+      ],
+      "technology": ["Kafka", "Apache Storm", "Mongo DB", "AWS", "Mapbox", "D3"],
+      "start_date": "Jan 2018",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Infection prevention as a Game",
+      "description": [
+        "We modeled a pandemic as a game where the goal was to reduce the infection spread within a network.",
+        "For each \"move\" the infection can infect 1 person and the player could immunize 1 person",
+        "We modeled a min max algorithm to detect the best possible case where least people are infected before the infection can be contained."
+      ],
+      "technology": ["Python", "MinMax Algorithm", "GCP"],
+      "start_date": "Aug 2017",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Frequent Route Mining in Cab Service",
+     "description": [
+        "Using the public dataset of NYC cabs we tried to figure which would be the best spots for share-a-cab booths",
+        "We minied for frequent pairs based on location, time and minimum need to walk we proposed pairs of pickup and drop locations where it would be economical to run such a service"
+      ],
+      "technology": ["Python", "TIGER dataset", "PostgreSQL"],
+      "start_date": "Aug 2017",
+      "link": "",
+      "link_x_icon": "fa-github"
     }
   ]
 }

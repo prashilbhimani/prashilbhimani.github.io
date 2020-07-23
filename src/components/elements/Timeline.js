@@ -16,7 +16,7 @@ function Timeline() {
         </span>
       </header>
       <div className="timeline-item">
-        <div className="timeline-marker is-success"></div>
+        <div className="timeline-marker is-info"></div>
         <div className="timeline-content"></div>
       </div>
       {
@@ -24,7 +24,7 @@ function Timeline() {
           let content = [];
           content.push(
             <header key={i} className="timeline-header">
-              <span className="tag is-success">{year}</span>
+              <span className="tag is-info">{year}</span>
             </header>
           );
           content.push(
