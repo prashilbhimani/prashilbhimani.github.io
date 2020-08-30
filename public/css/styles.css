@@ -30,6 +30,9 @@ html {
 	float: right;
 }
 
+.icon {
+  color: #000;
+}
 
 .rotatingText-adjective { 
   opacity: 0;

@@ -12,7 +12,7 @@ class App extends Component {
       [Resume.basics.location.region, Resume.basics.location.country].join(", ")
     ].join(" | ");
   }
-
+  // This is the main section which strutures every other section. Consider the 
   render() {
     return (
       <div>

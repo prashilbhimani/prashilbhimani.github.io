@@ -4,10 +4,11 @@
   "homepage": "https://prashilbhimani.com",
   "private": true,
   "dependencies": {
+    "buefy": "^0.8.20",
+    "gh-pages": "^2.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "^3.4.0",
-    "gh-pages": "^2.2.0"
+    "react-scripts": "^3.4.0"
   },
   "devDependencies": {
     "bulma": "^0.9.0",

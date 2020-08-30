@@ -7539,7 +7539,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   vertical-align: top;
   width: 20px; }
   .delete::before, .modal-close::before, .delete::after, .modal-close::after {
-    background-color: #62CCFE;
+    background-color: #000000;
     content: "";
     display: block;
     left: 50%;
