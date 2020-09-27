@@ -39,7 +39,7 @@ function Hero() {
                   className="is-hovered"
                   title={value.network}
                 >
-                  <span className="icon is-medium is-">
+                  <span className="icon is-medium has-text-white">
                     <i className={value.x_icon}></i>
                   </span>
                 </a>
