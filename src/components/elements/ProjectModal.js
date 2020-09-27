@@ -11,7 +11,7 @@ function ProjectModal(project) {
       <div className="modal-background" onClick={(e) => closeModal(projectId)}></div>
       <div className="modal-content">
         <div className="card has-background-white ">
-          <header className="card-header has-background-info" style={{height: "80px" }}>
+          <header className="card-header has-background-primary" style={{height: "80px" }}>
             <p className="card-header-title">
               {project.name}
             </p>

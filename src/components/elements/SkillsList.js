@@ -11,7 +11,7 @@ function buildSkills(skills) {
   let counter = 0;
   Object.entries(skills).forEach(([key, value]) => {
     progressBars.push(
-      <li key={counter}>
+      <li key={counter} id={key}>
         <ProgressBar key={counter} text={key} level={value} />
       </li>
     );

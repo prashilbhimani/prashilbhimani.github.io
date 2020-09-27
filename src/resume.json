@@ -59,9 +59,18 @@
       "company": "University of Colorado, Boulder",
       "position": "Lead Teaching Assistant",
       "website": "https://www.colorado.edu/cs/",
-      "startDate": "2018-01-15",
+      "startDate": "2018-07-15",
       "endDate": "2019-05-08",
       "summary": "Lead a team of over 70 Teaching Assistants and taugh Data Structures and Programming for 3 semesters at the CS department in CU Boulder",
+      "highlights": []
+    },
+    {
+      "company": "University of Colorado, Boulder",
+      "position": "Teaching Assistant",
+      "website": "https://www.colorado.edu/cs/",
+      "startDate": "2018-01-15",
+      "endDate": "2019-05-08",
+      "summary": "Taugh Data Structures and Programming for 3 semesters at the CS department in CU Boulder to over 200 students. Awarded 'Exceptional Teaching Assistant Award' for 2 semesters",
       "highlights": []
     } 
   ],
@@ -97,32 +106,37 @@
     {
       "name": "GCP",
       "level": "Proficient",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
     },
     {
       "name": "Kubernetes",
       "level": "Beginner",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
     },
     {
       "name": "Kafka/ Messsaging System",
       "level": "Proficient",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
     },
     {
       "name": "Map Reduce",
       "level": "Proficient",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
     },
     {
       "name": "Elastic Search",
       "level": "Competent",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
     },
     {
       "name": "Apache Beam",
       "level": "Proficient",
-      "keywords": ["Cloud & Distributed Systems"]
+      "category": "Cloud & Distributed Systems"
+    },
+    {
+      "name": "Dataflow",
+      "level": "Proficient",
+      "category": "Cloud & Distributed Systems"
     },
     
 
@@ -130,68 +144,68 @@
     {
       "name": "Full Stack Development",
       "level": "Proficient",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
     {
       "name": "Front End Development",
       "level": "Competent",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
         {
       "name": "REST API",
       "level": "Expert",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
     {
       "name": "Object Oriented Programming",
       "level": "Expert",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
     {
       "name": "Design Patterns",
       "level": "Competent",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
     {
       "name": "Git",
       "level": "Proficient",
-      "keywords": ["Software Development"]
+      "category": "Software Development"
     },
 
     {
       "name": "Java",
       "level": "Expert",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "Python",
       "level": "Proficient",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "Scala",
       "level": "Competent",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "C++",
       "level": "Competent",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "C",
       "level": "Beginner",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "JavaScript",
       "level": "Competent",
-      "keywords": ["Languages"]
+      "category": "Languages"
     },
     {
       "name": "SQL",
-      "level": "Expert",
-      "keywords": ["Languages"]
+      "level": "Proficient",
+      "category": "Languages"
     }
 
   ],
@@ -276,7 +290,7 @@
       "description": [
         "Brands are very keen to understand public response to their products across various regions.",
         "We used Twitter's live stream API to get live tweets about people tweeting about a certain product and what are their sentiments about it.",
-        "The system was backed by real time processing of the tweets and comuting the overall sentiments by regions for the given keywords."
+        "The system was backed by real time processing of the tweets and comuting the overall sentiments by regions for the given keyword."
       ],
       "technology": ["Kafka", "Apache Storm", "Mongo DB", "AWS", "Mapbox", "D3"],
       "start_date": "Jan 2018",

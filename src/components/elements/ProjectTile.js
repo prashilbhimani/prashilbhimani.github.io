@@ -9,7 +9,7 @@ function ProjectTile(project) {
   }
   function techDisplay(tech) {
     return(
-      <span class="tag is-light mx-1">{tech}</span>
+      <a class="tag is-primary-light mx-1" href={"#".concat(tech)}>{tech}</a>
     )
   }
   return (
