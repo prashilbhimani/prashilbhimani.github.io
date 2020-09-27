@@ -33,7 +33,7 @@ function populateProjectCardRow(rowNumber) {
 
 function Projects() {
   return (
-    <section className="section has-background-primary-light" id="projects">
+    <section className="section has-background-white" id="projects">
       <div className="container">
         <h1 className="title">Academic Projects</h1>
         {populateProjectCardRow(0)}

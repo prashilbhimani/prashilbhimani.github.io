@@ -4,7 +4,7 @@ import Timeline from "../elements/Timeline";
 
 function Experience() {
   return (
-    <section className="section has-background-info-light" id="experience">
+    <section className="section has-background-white" id="experience">
       <div className="container">
         <h1 className="title">Experience</h1>
         <Timeline />

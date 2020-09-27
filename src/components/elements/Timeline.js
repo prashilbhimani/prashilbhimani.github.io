@@ -11,12 +11,12 @@ function Timeline() {
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
-        <span className="tag is-medium is-dark">
-          {new Date().getFullYear()}
+        <span className="tag is-medium is-primary">
+          Present
         </span>
       </header>
       <div className="timeline-item">
-        <div className="timeline-marker is-info"></div>
+        <div className="timeline-marker is-primary"></div>
         <div className="timeline-content"></div>
       </div>
       {
@@ -24,7 +24,7 @@ function Timeline() {
           let content = [];
           content.push(
             <header key={i} className="timeline-header">
-              <span className="tag is-info">{year}</span>
+              <span className="tag is-primary">{year}</span>
             </header>
           );
           content.push(
