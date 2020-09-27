@@ -9,7 +9,7 @@ html {
     margin: 30px 0 0 0;
 }
 .has-bg-image {
-    background-image: url('../images/techical_development_background.JPG');
+    background-image: url('../images/techical_development_background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
