@@ -1,28 +1,43 @@
 import React from "react";
-import ProjectCard from "../elements/ProjectCard";
+import ProjectTile from "../elements/ProjectTile";
 import Resume from "../../resume.json";
 
-function Projects() {
-  const projectList = Resume.projects
-  const sizePerRow = 3; 
-  const projectRows = projectList.reduce(
-  	(acc, curr, i) => {
-    	if (!(i % sizePerRow)) {    // if index is 0 or can be divided by the `size`...
-      		acc.push(projectList.slice(i, i + sizePerRow));   // ..push a chunk of the original array to the accumulator
-    	}
-    	return acc;
-    }, []
-   );
+function emptyTile(){
+	return (<div className="tile is-child px-2 py-2"/>)
+}
 
+function populateProjectCardRow(rowNumber) {
+	const projectList = Resume.projects;
+	const numOfProjectPerRow = 4;
+	const projectRow = projectList.slice(numOfProjectPerRow * rowNumber, numOfProjectPerRow * (rowNumber+1));
+	const extraRows =[];
+	if(projectRow.length < 4)
+	{	
+		var i;
+		for (i = projectRow.length; i < 4; i++) {
+  			extraRows.push(emptyTile())
+		}
+	}
+	return (
+		<div className="tile is-ancestor px-1">
+			<div className= "tile is-parent" >
+				{
+					projectRow.map((project) => ProjectTile(project))
+				}
+				{extraRows}
+			</div>
+		</div>
+
+	)
+}
+
+function Projects() {
   return (
-    <section className="section " id="projects">
+    <section className="section has-background-primary-light" id="projects">
       <div className="container">
-        <h1 className="title">Projects</h1>
-        	<div className="tile is-ancestor px-1" key={index}>
-              <div className= "tile is-parent" >
-                {(rows)}
-              </div>
-            </div>
+        <h1 className="title">Academic Projects</h1>
+        {populateProjectCardRow(0)}
+        {populateProjectCardRow(1)}
       </div>
     </section>
   );

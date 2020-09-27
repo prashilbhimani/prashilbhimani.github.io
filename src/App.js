@@ -12,7 +12,7 @@ class App extends Component {
       [Resume.basics.location.region, Resume.basics.location.country].join(", ")
     ].join(" | ");
   }
-  // This is the main section which strutures every other section. Consider the 
+  // This is the main section which strutures every other section. Consider this as the root of the React DOM tree
   render() {
     return (
       <div>

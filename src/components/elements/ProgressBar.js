@@ -11,8 +11,8 @@ var progress = {
 function ProgressBar(props) {
   return (
     <div>
-      <span className="title is-5 is-spaced">{props.text}</span>
-      <span className="subtitle is-6 skill-percentage">{props.level}</span>
+      <span className="title has-text-white is-5 is-spaced">{props.text}</span>
+      <span className="subtitle has-text-white   is-6 skill-percentage">{props.level}</span>
       <progress
         className="progress is-info"
         value={progress[props.level]}

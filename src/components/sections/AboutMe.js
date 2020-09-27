@@ -4,7 +4,7 @@ import Resume from "../../resume.json";
 
 function AboutMe() {
   return (
-    <section className="section has-background-link" id="aboutMe">
+    <section className="section has-background-info-dark" id="aboutMe">
       <div className="container has-text-centered">
         <figure className="image is-180x180 container ">
           <img

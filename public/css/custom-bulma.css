@@ -10455,14 +10455,14 @@ a.tag:hover {
     content: "\0227B"; }
 
 .card {
-  background-color: #FFFFFF;
+  background-color: white;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
   max-width: 100%;
   position: relative; }
 
 .card-header {
-  background-color: #62CCFE;
+  background-color: transparent;
   align-items: stretch;
   box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
   display: flex; }
