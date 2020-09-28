@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Prashil Bhimani",
-    "label": ["Data Engineer", "Data Analyst", "Designer", "Ful Stack Developer", "Software Engineer"],
+    "label": ["Big Data Engineer", "Platform Engineer", "Designer", "Full Stack Developer", "Software Engineer"],
     "picture": "images/profile.png",
-    "x_title": "Hello there, Nice to see you here ",
+    "x_title": "Hello, Nice to see you here!",
     "summary": "I am software engineer interested in building real time data pipeline and big data analytics software. Currently I am working at @Twitter building realtime Data Pipelines and analytics platform for the Public APIs. In my leisure time I love watching Netflix documentaries, History videos, and keep a track of Cricket games ",
     "location": {
       "country": "US",
@@ -28,6 +28,12 @@
         "username": "prashilbhimani",
         "url": "https://github.com/prashilbhimani",
         "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "Mail",
+        "username": "prashilbhimani24",
+        "url": "mailto:prashilbhimani24@gmail.com",
+        "x_icon": "fa fa-2x fa-inbox"
       }
     ]
   },
@@ -37,7 +43,7 @@
       "position": "Software Engineer II",
       "website": "www.twitter.com",
       "startDate": "2020-09-14",
-      "summary": "Building a managed real time streaming compute platform at Twitter to handle hybrid cloud real time data compute pipeline with stateful / stateless aggregations"
+      "summary": "Building a managed real time streaming compute platform at Twitter to handle hybrid cloud real time data compute pipeline with stateful / stateless computations"
     },
     {
       "company": "Twitter",
@@ -48,14 +54,6 @@
       "summary": "Working for the Twitter Public API platform (DES) and built a pipeline to track and analyze usage of the APIs"
     },
     {
-      "company": "Goldman Sachs",
-      "position": "Analyts",
-      "website": "https://www.goldmansachs.com/",
-      "startDate": "2018-05-31",
-      "endDate": "2018-08-08",
-      "summary": "Joined Goldman Sachs as an Analyst to work on the Controller's Tech division and built streamlined approval process for quaterly financial statements for funds"
-    },
-    {
       "company": "University of Colorado, Boulder",
       "position": "Lead Teaching Assistant",
       "website": "https://www.colorado.edu/cs/",
@@ -63,6 +61,14 @@
       "endDate": "2019-05-08",
       "summary": "Lead a team of over 70 Teaching Assistants and taugh Data Structures and Programming for 3 semesters at the CS department in CU Boulder",
       "highlights": []
+    },
+    {
+      "company": "Goldman Sachs",
+      "position": "Analyts",
+      "website": "https://www.goldmansachs.com/",
+      "startDate": "2018-05-31",
+      "endDate": "2018-08-08",
+      "summary": "Joined Goldman Sachs as an Analyst to work on the Controller's Tech division and built streamlined approval process for quaterly financial statements for funds"
     },
     {
       "company": "University of Colorado, Boulder",
@@ -207,7 +213,6 @@
       "level": "Proficient",
       "category": "Languages"
     }
-
   ],
   "languages": [
     {
@@ -245,9 +250,23 @@
       "x_icon": "fa-window-maximize"
     }
   ],
-    "projects": [
+  "projects": [
     {
-      "name": "Search Infrastructure as a Service",
+      "name": "Project EPIC",
+      "one_line": "Build a platform to crowd source information about crisis and natural disasters to aid emergency response.",
+      "description": [
+        "TODO",
+        "TODO",
+        "TODO"
+      ],
+      "technology": ["Hadoop", "Apache Storm", "Apache Spark", "Neo4J", "GCP"],
+      "start_date": "Aug 2018",
+      "link": "https://epic.cs.colorado.edu/",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": " Plug N Search",
+      "one_line": "A managed service to scalably upload huge datasets and get Search as a service",
       "description": [
         "The goal of the project was to give search infrastructure as a service where customers can upload their datasets and plug in a search index in their application backed by their data.",
         "The search infrastruture was based on elastic search where customers can define their fields to index and have fine grained control over their data without the over head of maintaining elastic search clusters.",
@@ -260,7 +279,8 @@
       "link_x_icon": "fa-github"
     },
     {
-      "name": "Community detection in Social Networks",
+      "name": "Echo chambers @ Twitter",
+      "one_line": "Reasearching how echo chambers form in Twitter and ways of detection.",
       "description": [
         "Social Networks exhibit graph like communities and goal of the research was to apply graph algorithms to detect sub communities in a particular community.",
         "We used Twitter Data for on the community of users who talk about climate change on the social network.",
@@ -273,7 +293,8 @@
       "link_x_icon": "fa-github"
     },
     {
-      "name": "Connect 4 player using Reinforcement Learning",
+      "name": "Connect 4 Game",
+      "one_line": "Play the classic game of Connect 4 against a computer or another player",
       "description": [
         "We developed a Connect 4 player using Q learning where the Q-Table was mocked by a structured neural network.",
         "This lead to reducing in training time over an unsupervised network.",
@@ -286,7 +307,8 @@
       "link_x_icon": "fa-github"
     },
     {
-      "name": "Real Time sentiment analysis of topics using Tweets",
+      "name": "Tweet-a-lyzer",
+      "one_line": "Analyze how people are talking about topics in real time on Twitter based in different places in the past week",
       "description": [
         "Brands are very keen to understand public response to their products across various regions.",
         "We used Twitter's live stream API to get live tweets about people tweeting about a certain product and what are their sentiments about it.",
@@ -298,24 +320,38 @@
       "link_x_icon": "fa-github"
     },
     {
-      "name": "Infection prevention as a Game",
+      "name": "Fixed Shared-Cab Spots",
+      "one_line": "Find optimal spots in NYC to have cab stops so people can share a cab between most frequented routes.",
+      "description": [
+        "Using the public dataset of NYC cabs we tried to figure which would be the best spots for share-a-cab booths",
+        "We minied for frequent pairs based on location, time and minimum need to walk we proposed pairs of pickup and drop locations where it would be economical to run such a service"
+      ],
+      "technology": ["Python", "TIGER dataset", "PostgreSQL"],
+      "start_date": "Aug 2017",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "University Records System",
+      "one_line": "Built a web app for VJTI to handle records of curricular/extra curricular activities for 10k+ students",
+      "description": [
+        "TODO",
+        "TODO"
+      ],
+      "technology": ["Python", "MinMax Algorithm", "GCP"],
+      "start_date": "Aug 2016",
+      "link": "",
+      "link_x_icon": "fa-github"
+    },
+    {
+      "name": "Reviews based results",
+      "one_line": "Built models that analyze reviews for a business to see things they are good/bad at and rank search results for users based on what they value rather than overall reviews",
       "description": [
         "We modeled a pandemic as a game where the goal was to reduce the infection spread within a network.",
         "For each \"move\" the infection can infect 1 person and the player could immunize 1 person",
         "We modeled a min max algorithm to detect the best possible case where least people are infected before the infection can be contained."
       ],
       "technology": ["Python", "MinMax Algorithm", "GCP"],
-      "start_date": "Aug 2017",
-      "link": "",
-      "link_x_icon": "fa-github"
-    },
-    {
-      "name": "Frequent Route Mining in Cab Service",
-     "description": [
-        "Using the public dataset of NYC cabs we tried to figure which would be the best spots for share-a-cab booths",
-        "We minied for frequent pairs based on location, time and minimum need to walk we proposed pairs of pickup and drop locations where it would be economical to run such a service"
-      ],
-      "technology": ["Python", "TIGER dataset", "PostgreSQL"],
       "start_date": "Aug 2017",
       "link": "",
       "link_x_icon": "fa-github"

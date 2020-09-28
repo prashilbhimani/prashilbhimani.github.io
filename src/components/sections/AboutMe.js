@@ -12,14 +12,14 @@ function AboutMe() {
             
             src={Resume.basics.picture}
             alt={Resume.basics.name}
-            className="is-rounded"
+            className="is-rounded "
             onError={(e)=>{e.target.onerror = null; e.target.src=Resume.basics.x_pictureFallback}}
           />
         </figure>
-        <p className="subtitle is-4 has-text-white has-text-weight-bold">
+        <p className="title pt-6 is-3 has-text-white has-text-weight-bold">
           {Resume.basics.x_title}
         </p>
-        <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
+        <p className="subtitle is-4 py-6 has-text-white has-text-weight-light summary-text">
           {Resume.basics.summary}
         </p>
         <div className="container interests">

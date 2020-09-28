@@ -35,7 +35,7 @@ function Projects() {
   return (
     <section className="section has-background-white" id="projects">
       <div className="container">
-        <h1 className="title">Academic Projects</h1>
+        <h1 className="title">Some of my favorite projects</h1>
         {populateProjectCardRow(0)}
         {populateProjectCardRow(1)}
       </div>

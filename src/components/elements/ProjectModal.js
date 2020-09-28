@@ -18,6 +18,8 @@ function ProjectModal(project) {
           </header>
           <div style={{height: "450px"}} className="card-content is-clipped">
             {project.description.join(" ")}
+            <p className="pt-5">Technologies Used</p>
+            {project.technology.map((tech) => <a class="tag is-primary-light mx-1" href={"#".concat(tech)}>{tech}</a>)}
           </div>
         </div>
       </div>

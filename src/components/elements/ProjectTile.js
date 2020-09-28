@@ -7,11 +7,7 @@ function ProjectTile(project) {
     var modal = document.getElementById(id);
     modal.classList.add("is-active")
   }
-  function techDisplay(tech) {
-    return(
-      <a class="tag is-primary-light mx-1" href={"#".concat(tech)}>{tech}</a>
-    )
-  }
+
   return (
     <div className="tile is-child px-2 py-2" >
       <div className="card px-3 py-2 has-background-white" style = {{height: "300px", display: "flex", flexDirection: "column"}}>
@@ -19,8 +15,7 @@ function ProjectTile(project) {
           <h2 className="subtitle is-4">{project.name}</h2>
         </div>
         <div className="card-content" style={{ flex: "1 0 auto"}}>
-          <p>Technologies Used</p>
-          {project.technology.map((tech) => techDisplay(tech))}
+          {project.one_line}
         </div>
           <button 
             className="button modal-button has-background-primary card-footer" 

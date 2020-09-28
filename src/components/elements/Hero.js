@@ -18,7 +18,7 @@ function Hero() {
           <div className="subtitle is-size-3">
             {
               //This is a for loop over the labels 
-              Resume.basics.label.map((title, i) => {return <span key={i} className="rotatingText-adjective" >       - {title} </span>})
+              Resume.basics.label.map((title, i) => {return <span key={i} className="rotatingText-adjective" > {title} </span>})
             } 
               
           </div>

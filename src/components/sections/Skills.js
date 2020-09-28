@@ -21,8 +21,8 @@ function Skills() {
   return (
     <section className="section has-background-info-dark " id="skills">
       <div className="container">
-        <h1 className="title has-text-white ">Skills</h1>
-        <div className="columns">
+        <h1 className="title has-text-white">What do I know?</h1>
+        <div className="columns pt-6">
           {
             categories.map( category =>
               <div className={"column is-".concat(12/categories.length)}>
