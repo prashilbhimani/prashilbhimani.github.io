@@ -9,7 +9,7 @@ function Skills() {
           icon: "fa-laptop-code"
         },
         {
-          name: "Cloud & Distributed Systems", 
+          name: "Distributed Systems", 
           icon: "fa-cogs"
           
         },

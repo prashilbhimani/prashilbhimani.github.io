@@ -15,11 +15,10 @@ function ProjectModal(project) {
             <p className="card-header-title">
               {project.name}
             </p>
+            <a href={project.link}> Link</a>
           </header>
           <div style={{height: "450px"}} className="card-content is-clipped">
             {project.description.join(" ")}
-            <p className="pt-5">Technologies Used</p>
-            {project.technology.map((tech) => <a class="tag is-primary-light mx-1" href={"#".concat(tech)}>{tech}</a>)}
           </div>
         </div>
       </div>

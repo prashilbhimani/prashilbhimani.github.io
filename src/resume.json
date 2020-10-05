@@ -112,37 +112,48 @@
     {
       "name": "GCP",
       "level": "Proficient",
-      "category": "Cloud & Distributed Systems"
-    },
-    {
-      "name": "Kubernetes",
-      "level": "Beginner",
-      "category": "Cloud & Distributed Systems"
-    },
-    {
-      "name": "Kafka/ Messsaging System",
-      "level": "Proficient",
-      "category": "Cloud & Distributed Systems"
-    },
-    {
-      "name": "Map Reduce",
-      "level": "Proficient",
-      "category": "Cloud & Distributed Systems"
-    },
-    {
-      "name": "Elastic Search",
-      "level": "Competent",
-      "category": "Cloud & Distributed Systems"
-    },
-    {
-      "name": "Apache Beam",
-      "level": "Proficient",
-      "category": "Cloud & Distributed Systems"
+      "category": "Cloud Computing"
     },
     {
       "name": "Dataflow",
       "level": "Proficient",
-      "category": "Cloud & Distributed Systems"
+      "category": "Cloud Computing"
+    },
+    {
+      "name": "AWS",
+      "level": "Competent",
+      "category": "Cloud Computing"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Beginner",
+      "category": "Distributed Systems"
+    },
+    {
+      "name": "Kafka/ Messsaging System",
+      "level": "Proficient",
+      "category": "Distributed Systems"
+    },
+    {
+      "name": "Map Reduce",
+      "level": "Proficient",
+      "category": "Distributed Systems"
+    },
+    {
+      "name": "Elastic Search",
+      "level": "Competent",
+      "category": "Distributed Systems"
+    },
+    {
+      "name": "Apache Beam",
+      "level": "Proficient",
+      "category": "Distributed Systems"
+    },
+
+    {
+      "name": "Apache Storm",
+      "level": "Beginner",
+      "category": "Distributed Systems"
     },
     
 
@@ -159,12 +170,12 @@
     },
         {
       "name": "REST API",
-      "level": "Expert",
+      "level": "Proficient",
       "category": "Software Development"
     },
     {
       "name": "Object Oriented Programming",
-      "level": "Expert",
+      "level": "Proficient",
       "category": "Software Development"
     },
     {
@@ -180,7 +191,7 @@
 
     {
       "name": "Java",
-      "level": "Expert",
+      "level": "Proficient",
       "category": "Languages"
     },
     {
@@ -255,13 +266,13 @@
       "name": "Project EPIC",
       "one_line": "Build a platform to crowd source information about crisis and natural disasters to aid emergency response.",
       "description": [
-        "TODO",
-        "TODO",
-        "TODO"
+        "Project EPIC launched in September 2009 and is supported by a $2.8M grant from the US National Science Foundation and is a multi-disciplinary, multi-lingual research effort to support the information needs by members of the public during times of mass emergency using social media.",
+        "During the time when I was a part of the project we built out a new infrastructure to gather and analyze data using Kubernetes, Storm and Kafka on AWS.",
+        "We built it out to support monitoring multiple crisis events at the same time with the ability to modify the events and built out an admin dashboard to make the system configurable."
       ],
-      "technology": ["Hadoop", "Apache Storm", "Apache Spark", "Neo4J", "GCP"],
+      "technology": ["Kubernetes", "Apache Storm", "Apache Kafka", "AWS"],
       "start_date": "Aug 2018",
-      "link": "https://epic.cs.colorado.edu/",
+      "link": "https://github.com/Project-EPIC",
       "link_x_icon": "fa-github"
     },
     {
@@ -275,7 +286,7 @@
       ],
       "technology": ["Elastic Search", "AWS", "BitTorrent", "Apache Spark"],
       "start_date": "Sept 2018",
-      "link": "",
+      "link": "https://github.com/prashilbhimani/PlugNSearch",
       "link_x_icon": "fa-github"
     },
     {
@@ -289,7 +300,7 @@
       ],
       "technology": ["Hadoop", "Apache Storm", "Apache Spark", "Neo4J", "GCP"],
       "start_date": "Aug 2018",
-      "link": "",
+      "link": "https://github.com/prashilbhimani/EchoChambersTwitter",
       "link_x_icon": "fa-github"
     },
     {
@@ -303,20 +314,20 @@
       ],
       "technology": ["Python", "Keras", "TensorFlow"],
       "start_date": "Jan 2018",
-      "link": "",
+      "link": "https://github.com/prashilbhimani/Connect4",
       "link_x_icon": "fa-github"
     },
     {
-      "name": "Tweet-a-lyzer",
+      "name": "Emoji Mapper",
       "one_line": "Analyze how people are talking about topics in real time on Twitter based in different places in the past week",
       "description": [
         "Brands are very keen to understand public response to their products across various regions.",
         "We used Twitter's live stream API to get live tweets about people tweeting about a certain product and what are their sentiments about it.",
-        "The system was backed by real time processing of the tweets and comuting the overall sentiments by regions for the given keyword."
+        "The system was backed by real time processing of the tweets and comuting the overall sentiments by regions for the given keyword based on emojis and text."
       ],
       "technology": ["Kafka", "Apache Storm", "Mongo DB", "AWS", "Mapbox", "D3"],
       "start_date": "Jan 2018",
-      "link": "",
+      "link": "https://github.com/prashilbhimani/EmojiMapper",
       "link_x_icon": "fa-github"
     },
     {
@@ -335,13 +346,14 @@
       "name": "University Records System",
       "one_line": "Built a web app for VJTI to handle records of curricular/extra curricular activities for 10k+ students",
       "description": [
-        "TODO",
-        "TODO"
+        "Universities in India still heavily rely on paper records for academics and reporting.",
+        "As an effort to improve efficiency of the administrative we built a system to track and record academics and non academic records of over 10k student every year.",
+        "The system made managing classes and records easier with automatics reports and visulaization for teachers and students."
       ],
       "technology": ["Python", "MinMax Algorithm", "GCP"],
       "start_date": "Aug 2016",
-      "link": "",
-      "link_x_icon": "fa-github"
+      "link": "resources/VJTIRecordsSystemReport.pdf",
+      "link_x_icon": "fa-file"
     },
     {
       "name": "Reviews based results",
@@ -353,7 +365,7 @@
       ],
       "technology": ["Python", "MinMax Algorithm", "GCP"],
       "start_date": "Aug 2017",
-      "link": "",
+      "link": "https://github.com/prashilbhimani/YelpRecommendationSystem",
       "link_x_icon": "fa-github"
     }
   ]
